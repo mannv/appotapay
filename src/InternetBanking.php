@@ -6,7 +6,7 @@
  * Time: 9:17 AM
  */
 namespace Kayac\AppotaPay;
-class iBanking
+class InternetBanking
 {
     private $API_URL = 'https://api.appotapay.com/';
     private $API_KEY;
