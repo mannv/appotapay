@@ -1,0 +1,29 @@
+{
+    "name": "kayac/appotapay",
+    "type": "library",
+    "license": "MIT",
+    "description": "Integrate appotapay into lumen",
+    "keywords": [
+        "lumen",
+        "payment",
+        "appotapay",
+        "appota"
+    ],
+    "authors": [
+        {
+            "name": "Ha Anh Man",
+            "email": "man.nv@kayac.vn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kayac\\Appotapay\\": "packages/kayac/appotapay/src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
