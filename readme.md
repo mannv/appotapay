@@ -8,9 +8,15 @@
     ```
     
 2. Add service provider into **config/app.php** file.
-    ```php
-    Kayac\AppotaPay\AppotapayServiceProvider::class
-    ```
+
+For laravel: config/app.php
+```
+Kayac\AppotaPay\AppotapayServiceProvider::class
+```
+For lumen: bootstrap/app.php
+```
+$app->register(\Kayac\AppotaPay\AppotapayServiceProvider::class);
+```
 
 - add config to .env
 ```
@@ -23,9 +29,7 @@ APPOTA_APP_URL=https://api.appotapay.com/
 APPOTA_SANDBOX=true
 ```    
 
-3. Run **composer update**
-
-4. publish appotapay.php to config folder
+3 . publish appotapay.php to config folder
 ```
 php artisan vendor:publish --provider="Kayac\AppotaPay\AppotapayServiceProvider" --tag=config
 ```
