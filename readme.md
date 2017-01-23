@@ -16,6 +16,7 @@ Kayac\AppotaPay\AppotapayServiceProvider::class
 For lumen: bootstrap/app.php
 ```
 $app->register(\Kayac\AppotaPay\AppotapayServiceProvider::class);
+$app->configure('appotapay');
 ```
 
 - add config to .env
