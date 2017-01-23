@@ -15,7 +15,7 @@ class AppotapayServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application events.
-     *
+     * php artisan vendor:publish --provider="Kayac\AppotaPay\AppotapayServiceProvider" --tag=config
      * @return void
      */
     public function boot()
