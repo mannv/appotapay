@@ -34,9 +34,13 @@ APPOTA_SANDBOX=true
 php artisan vendor:publish --provider="Kayac\AppotaPay\AppotapayServiceProvider" --tag=config
 ```
 
+or copy file /vendor/kayac/appotapay/config/appotapay.php to config folder
+
+
 ##Author
 Hà Anh Mận
 
 ##Document
 Document appotapay
+
 https://appotapay.com/Docs
